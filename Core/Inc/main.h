@@ -59,20 +59,34 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define M3D_Pin GPIO_PIN_3
+#define M3D_GPIO_Port GPIOE
+#define M3P_Pin GPIO_PIN_5
+#define M3P_GPIO_Port GPIOE
+#define M4P_Pin GPIO_PIN_6
+#define M4P_GPIO_Port GPIOE
+#define M4D_Pin GPIO_PIN_14
+#define M4D_GPIO_Port GPIOC
 #define M2P_Pin GPIO_PIN_3
 #define M2P_GPIO_Port GPIOA
+#define M1P_Pin GPIO_PIN_5
+#define M1P_GPIO_Port GPIOA
 #define M1D_Pin GPIO_PIN_7
 #define M1D_GPIO_Port GPIOE
+#define EN1_CH1_Pin GPIO_PIN_9
+#define EN1_CH1_GPIO_Port GPIOE
+#define EN1_CH2_Pin GPIO_PIN_11
+#define EN1_CH2_GPIO_Port GPIOE
 #define M2D_Pin GPIO_PIN_14
 #define M2D_GPIO_Port GPIOE
-#define EN2_C1_Pin GPIO_PIN_4
-#define EN2_C1_GPIO_Port GPIOB
-#define EN2_C2_Pin GPIO_PIN_5
-#define EN2_C2_GPIO_Port GPIOB
-#define EN1_C1_Pin GPIO_PIN_6
-#define EN1_C1_GPIO_Port GPIOB
-#define EN1_C2_Pin GPIO_PIN_7
-#define EN1_C2_GPIO_Port GPIOB
+#define EN5_CH1_Pin GPIO_PIN_6
+#define EN5_CH1_GPIO_Port GPIOC
+#define EN5_CH2_Pin GPIO_PIN_7
+#define EN5_CH2_GPIO_Port GPIOC
+#define EN3_CH1_Pin GPIO_PIN_6
+#define EN3_CH1_GPIO_Port GPIOB
+#define EN3_CH2_Pin GPIO_PIN_7
+#define EN3_CH2_GPIO_Port GPIOB
 #define PWM_SERVO_Pin GPIO_PIN_8
 #define PWM_SERVO_GPIO_Port GPIOB
 
