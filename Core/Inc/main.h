@@ -73,6 +73,8 @@ void Error_Handler(void);
 #define EN1_C1_GPIO_Port GPIOB
 #define EN1_C2_Pin GPIO_PIN_7
 #define EN1_C2_GPIO_Port GPIOB
+#define PWM_SERVO_Pin GPIO_PIN_8
+#define PWM_SERVO_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
