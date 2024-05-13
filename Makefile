@@ -59,7 +59,9 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c \
 Core/Src/sysmem.c \
-Core/Src/syscalls.c
+Core/Src/syscalls.c\
+/Drivers/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c
+/Drivers/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -115,7 +117,8 @@ AS_DEFS =
 # C defines
 C_DEFS =  \
 -DUSE_HAL_DRIVER \
--DSTM32F407xx
+-DSTM32F407xx\
+-D__FPU_PRESENT=1U
 
 
 # AS includes
@@ -127,7 +130,8 @@ C_INCLUDES =  \
 -IDrivers/STM32F4xx_HAL_Driver/Inc \
 -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32F4xx/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include\
+-IDrivers/CMSIS/DSP/Include
 
 
 # compile gcc flags
