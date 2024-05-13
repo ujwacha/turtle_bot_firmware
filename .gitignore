@@ -6,3 +6,8 @@
 /.Makefile.~undo-tree~
 build/
 .vscode/
+/Core/Src/main.c~
+/Makefile~
+/Core/Src/driver.cpp~
+/Core/Src/.main.c.~undo-tree~
+/Core/Src/.joystick.hpp.~undo-tree~
