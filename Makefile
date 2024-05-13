@@ -66,6 +66,13 @@ ASM_SOURCES =  \
 startup_stm32f407xx.s
 
 
+
+
+# C++ sources
+CXX_SOURCES = \
+Src/robot.cpp
+
+
 #######################################
 # binaries
 #######################################
