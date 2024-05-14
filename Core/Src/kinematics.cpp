@@ -31,8 +31,8 @@ class Kinematics{
 
 		void set_value(float velocity,float theta_deg, float omega_inp)
 		{
-			Vx = velocity * arm_sin_bs(theta_deg);
-			Vy = velocity * arm_cos_bs(theta_deg);
+			Vx = velocity * arm_sin_f32(theta_deg);
+			Vy = velocity * arm_cos_f32(theta_deg);
 			omega = omega_inp;
 		}
 
