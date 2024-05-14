@@ -11,3 +11,5 @@ build/
 /Core/Src/driver.cpp~
 /Core/Src/.main.c.~undo-tree~
 /Core/Src/.joystick.hpp.~undo-tree~
+/Core/Src/joystick.hpp~
+/Core/Src/.PID.cpp.~undo-tree~
