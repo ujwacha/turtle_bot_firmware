@@ -72,7 +72,9 @@ startup_stm32f407xx.s
 
 # C++ sources
 CXX_SOURCES = \
-Src/robot.cpp
+Src/robot.cpp\
+Src/driver.cpp\
+Src/PID.cpp
 
 
 #######################################
