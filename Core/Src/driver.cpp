@@ -25,5 +25,4 @@ class Driver{
   TIM_HandleTypeDef* timer_pwm;
   uint32_t timer_channel;
   int max_pwm;
-
 };
